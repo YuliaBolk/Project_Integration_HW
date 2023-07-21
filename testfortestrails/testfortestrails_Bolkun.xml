@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C27</id>
+				<title>Перевірка наявності функціональності &quot;Зв`язатися з нами&quot; на сторінці</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити наявність функціональності &quot;Зв`язатися з нами&quot; на сторінці</steps>
+										<expected>Функціональність &quot;Зв`язатися з нами&quot; наявна на сторінці</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C28</id>
+				<title>Перевірка розташування функціональності &quot;Зв`язатися з нами&quot; на сторінці</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити розташування функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Функціональність &quot;Зв`язатися з нами&quot; знаходиться в футері сторінки</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C29</id>
+				<title>Перевірка кольору фону функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити колір фону функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Колір фону функціональності &quot;Зв`язатися з нами&quot; - #004B54</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C30</id>
+				<title>Перевірка наявності контактних телефонів у функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити наявність контактних телефонів у функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Контактні телефони наявні у функціональності &quot;Зв`язатися з нами&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C31</id>
+				<title>Перевірка кількості іконок соціальних мереж у функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити кількості іконок соціальних мереж у функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Кількість іконок соціальних мереж у функціональності &quot;Зв`язатися з нами&quot; - 4</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C32</id>
+				<title>Перевірка назв полів для вводу у формі &quot;Тематика звернення:&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>180</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Перевірити назви полів для вводу у формі &quot;Тематика звернення:&quot; функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Назви полів для вводу у формі &quot;Тематика звернення:&quot;: &quot;Ім`я&quot;; &quot;Телефон&quot;; &quot;E-mail&quot;; &quot;Коментар&quot;.</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C33</id>
+				<title>Перевірка можливості надсилання форми &quot;Тематика звернення:&quot; із заповненими валідними даними</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Ввести у форму &quot;Тематика звернення:&quot; наступні валідні данні:
+&quot;Ім`я&quot;: &quot;Сергій&quot;;
+&quot;Телефон&quot;: &quot;501234567&quot;;
+&quot;E-mail&quot;: &quot;petro.petrov@gmail.com&quot;;
+&quot;Коментар&quot;: &quot;Передзвоніть мені&quot;.
+3) Поставити відмітку в чекбоксі &quot;приймаю умови політики конфіденційності&quot;
+4) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Форма &quot;Тематика звернення:&quot; функціональності &quot;Зв&apos;язатись з нами&quot; успішно відправлена</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C34</id>
+				<title>Перевірка можливості надсилання документу формату .txt у формі &quot;Тематика звернення:&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Ввести у форму &quot;Тематика звернення:&quot; наступні валідні данні:
+&quot;Ім`я&quot;: &quot;Сергій&quot;;
+&quot;Телефон&quot;: &quot;501234567&quot;;
+&quot;E-mail&quot;: &quot;petro.petrov@gmail.com&quot;;
+&quot;Коментар&quot;: &quot;Передзвоніть мені&quot;.
+3) Прикріпити документ формату .txt
+4) Поставити відмітку в чекбоксі &quot;приймаю умови політики конфіденційності&quot;
+5) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Форма &quot;Тематика звернення:&quot; функціональності &quot;Зв&apos;язатись з нами&quot; успішно відправлена</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C35</id>
+				<title>Перевірка переходу за посиланням при натисканні іконки соціальної мережі &quot;Facebook&quot; у функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Натиснути на іконку соціальної мережі &quot;Facebook&quot; у функціональності &quot;Зв`язатися з нами&quot;</steps>
+										<expected>Відбувся перехід за посиланням до соціальної мережі &quot;Facebook&quot; </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C36</id>
+				<title>Перевірка можливості зміни країни у полі для вводу &quot;Телефон&quot; форми &quot;Тематика звернення:&quot; функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) У формі &quot;Тематика звернення:&quot;, у полі для вводу &quot;Телефон&quot; натиснути на прапор України
+3) У випадаючому списку обрати &quot;Moldova (Republica Moldova)&quot; </steps>
+										<expected>У полі для вводу &quot;Телефон&quot; з&apos;явився прапор Молдови і телефонний код змінився на +373
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C37</id>
+				<title>Перевірка можливості відправки форми &quot;Тематика звернення:&quot; з незаповненими даними</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Поставити відмітку в чекбоксі &quot;приймаю умови політики конфіденційності&quot;
+3) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Повідомлення про необхідність заповнення полів перед відправкою даних</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C38</id>
+				<title>Перевірка можливості вводу латинських літер у поле &quot;Телефон&quot; форми &quot;Тематика звернення:&quot; функціональності &quot;Зв`язатися з нами&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>120</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) У формі &quot;Тематика звернення:&quot;, у полі для вводу &quot;Телефон&quot; ввести латинські літери </steps>
+										<expected>У поле для вводу &quot;Телефон&quot; латинські літери не вводяться
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C39</id>
+				<title>Перевірка надсилання форми &quot;Тематика звернення:&quot;, що в полі &quot;E-mail&quot; містить два знаки @@</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Ввести у форму &quot;Тематика звернення:&quot; наступні данні:
+&quot;Ім`я&quot;: &quot;Сергій&quot;;
+&quot;Телефон&quot;: &quot;501234567&quot;;
+&quot;E-mail&quot;: &quot;petro@petrov@gmail.com&quot;;
+&quot;Коментар&quot;: &quot;Передзвоніть мені&quot;.
+3) Поставити відмітку в чекбоксі &quot;приймаю умови політики конфіденційності&quot;
+4) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Повідомлення про помилку про неправильно введені дані в полі &quot;E-mail&quot;</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C40</id>
+				<title>Перевірка можливості надсилання прикріпленого виконуваного файлу у формі &quot;Тематика звернення:&quot;</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>High</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Ввести у форму &quot;Тематика звернення:&quot; наступні валідні данні:
+&quot;Ім`я&quot;: &quot;Сергій&quot;;
+&quot;Телефон&quot;: &quot;501234567&quot;;
+&quot;E-mail&quot;: &quot;petro.petrov@gmail.com&quot;;
+&quot;Коментар&quot;: &quot;Передзвоніть мені&quot;.
+3) Прикріпити документ формату .exe
+4) Поставити відмітку в чекбоксі &quot;приймаю умови політики конфіденційності&quot;
+5) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Повідомлення про недопустимість надсилання файлу формату .exe </expected>
+									</custom>
+							</case>
+															<case>
+				<id>C41</id>
+				<title>Перевірка надсилання валідно заповненої форми &quot;Тематика звернення:&quot; без прийняття умов політики конфіденційності</title>
+												<template>Test Case (Text)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate>240</estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<steps>1) Відкрити головну сторінку сайту
+2) Ввести у форму &quot;Тематика звернення:&quot; наступні валідні данні:
+&quot;Ім`я&quot;: &quot;Сергій&quot;;
+&quot;Телефон&quot;: &quot;501234567&quot;;
+&quot;E-mail&quot;: &quot;petro.petrov@gmail.com&quot;;
+&quot;Коментар&quot;: &quot;Передзвоніть мені&quot;.
+3) Натиснути кнопку &quot;Відправити&quot;
+
+
+
+
+
+
+</steps>
+										<expected>Повідомлення: &quot;Прийміть політику конфіденційності&quot;</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
